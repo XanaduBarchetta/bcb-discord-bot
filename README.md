@@ -1,1 +1,1 @@
-asdf
+This is a Discord bot for fetching the latest posts to Bittersweet Candy Bowl.
