@@ -1,0 +1,25 @@
+logging:
+  # Directory name should not end with a slash and is relative to the main.py location
+  directory: logs
+  filename: bcb_discord_bot_log.log
+  level: INFO
+
+bot:
+  description: 'Helper bot for the unofficial BCB Discord server.'
+  token: # Replace this comment with the token for the bot
+  command_prefix: '?'
+  message_response_timeout: 60 # Amount of time in seconds the bot will wait for a response from a request to a user
+  confirmation_emoji: "✅"
+
+roles:
+  # Fill in these with the appropriate values
+  nsfw: 18+
+  groups:
+    # Groups refer to roles designed to allow for pinging subsets of the server membership, or voluntary access to channels
+    example_group_name:
+      role_name: Fun
+      description: Get pinged for movies and games
+  cosmetic:
+    - add
+    - roles
+    - here
