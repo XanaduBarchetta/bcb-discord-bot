@@ -1,6 +1,6 @@
 logging:
-  # Directory name should not end with a slash and is relative to the main.py location
-  directory: logs
+  # Directory name should not end with a slash
+  directory: /path/to/logs
   filename: bcb_discord_bot_log.log
   level: INFO
 

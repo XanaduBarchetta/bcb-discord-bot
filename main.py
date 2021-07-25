@@ -24,7 +24,7 @@ def get_config():
 config = get_config()
 
 TOKEN = config['bot']['token']
-LOG_FILE_PATH = os.path.join(os.path.dirname(__file__), config['logging']['directory'], config['logging']['filename'])
+LOG_FILE_PATH = os.path.join(config['logging']['directory'], config['logging']['filename'])
 
 logging.basicConfig(
     handlers=[RotatingFileHandler(LOG_FILE_PATH, maxBytes=5000, backupCount=10)],
